@@ -1,0 +1,18 @@
+Requisitos
+
+Os requisitos do sistema têm um carácter mais técnico, consistindo numa descrição detalhada dos requisitos do utilizador correspondentes recorrendo ao uso, para além da linguagem natural, de linguagens estruturadas e notações gráficas. Estes requisitos destinam-se ainda aos usuários do sistema (e particularmente aos engenheiros que trabalhem nessa organização) e destinam-se também às equipes de especificação de arquitetura do sistema e de desenvolvimento. Tal como nos requisitos do utilizador, o uso de linguagem natural levanta problemas, embora alguns deles sejam ligeiramente diferentes:
+
+As mesmas palavras podem, de acordo com a interpretação de cada pessoa, designar conceitos diferentes.
+O mesmo requisito pode ser descrito de formas diferentes, o que leva a que cada pessoa tenha de saber quando é que descrições diferentes se referem ou não a requisitos diferentes.
+
+Os requisitos do usuário destinam-se portanto aos vários níveis hierárquicos da organização na qual o sistema será implementado (desde gestores a usuários), pelo que são descritos usando apenas (conforme já foi referido) linguagem natural, formulários e diagramas muito simples. Obviamente, neste nível de especificação surgem algumas dificuldades:
+
+Ambiguidade: torna-se difícil descrever os requisitos de uma forma inequívoca sem tornar a sua descrição muito longa ou de difícil compreensão.
+Confusão: ainda que possa não ser tão relevante do ponto de vista do cliente, a distinção entre requisitos funcionais/não-funcionais e objetivos do sistema torna-se difícil.
+Agrupamento de requisitos: ao descrever as funcionalidades de um sistema, pode tornar-se difícil separar claramente os requisitos, o que leva a que vários requisitos sejam expressos como sendo apenas um.
+Algumas considerações úteis a ter em conta ao escrever uma especificação de requisitos do utilizador:
+
+Usar o mesmo formato em todos os requisitos (evitam-se omissões e facilita-se a verificação dos requisitos).
+Distinguir claramente entre comportamentos esperados e desejáveis do sistema através do uso de expressões como "O sistema permitirá criar (...)" ou "Deverá ser possível criar (...)" respectivamente. É importante deixar claro o que o sistema tem de fazer e sugestões de como o deve fazer e, acima de tudo, usar este tipo de expressões de forma consistente ao longo de todo o documento.
+Usar formatação de texto para salientar determinados aspectos do documento (usando negrito, por exemplo).
+Evitar usar termos demasiado técnicos ou fora do âmbito do sistema, identificando-os e definindo-os de uma forma clara quando for absolutamente necessário usá-los.
